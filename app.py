@@ -14,7 +14,7 @@ st.set_page_config(page_title="Ads Dashboard v1", layout="wide")
 df = load_data()
 df, _filters = apply_sidebar_filters(df)
 
-st.title("Ads Dashboard")
+st.title("Marketing Overview Dashboard")
 st.write("Use the sidebar filters to slice performance across all views.")
 
 if df.empty:
