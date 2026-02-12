@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+
+# Local virtual environments
+venv/
+.venv/
+env/
+streamlit/
+
+# Local tooling
+.DS_Store
